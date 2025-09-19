@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Course_Completion_Rate_Total__c</fullName>
+    <label>Course Completion Rate (Total)</label>
+    <summarizedField>Course_Session__c.Completion_Rate__c</summarizedField>
+    <summaryFilterItems>
+        <field>Course_Session__c.Status__c</field>
+        <operation>equals</operation>
+        <value>Completed</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Course_Session__c.Disciple_Course__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

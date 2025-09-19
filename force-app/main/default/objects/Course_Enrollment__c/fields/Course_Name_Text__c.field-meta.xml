@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Course_Name_Text__c</fullName>
+    <description>This field is used for merge fields in automated emails.</description>
+    <externalId>false</externalId>
+    <formula>Course_Session__r.Disciple_Course__r.Name</formula>
+    <inlineHelpText>This field is used for merge fields in automated emails.</inlineHelpText>
+    <label>Course Name Text</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
