@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Complete_Incomplete_WIthdrawn__c</fullName>
+    <description>Only counts enrollments with Complete, Incomplete and Withdrawn status. Used for Completion Rate formula</description>
+    <inlineHelpText>Only counts enrollments with Complete, Incomplete and Withdrawn status. Used for Completion Rate formula</inlineHelpText>
+    <label>Total Complete Incomplete WIthdrawn</label>
+    <summaryFilterItems>
+        <field>Course_Enrollment__c.Enrollment_Status__c</field>
+        <operation>equals</operation>
+        <value>Incomplete, Withdrawn, Completed</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Course_Enrollment__c.Course_Session__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>
