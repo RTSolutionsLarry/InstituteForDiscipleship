@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hear_about_Disciple_Program__c</fullName>
+    <inlineHelpText>This information is from the BeADisciple online form.</inlineHelpText>
+    <label>Hear about Disciple Program</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Instructor teaching the class</fullName>
+                <default>false</default>
+                <label>Instructor teaching the class</label>
+            </value>
+            <value>
+                <fullName>Social Media (Facebook, LinkedIn, Twitter)</fullName>
+                <default>false</default>
+                <label>Social Media (Facebook, LinkedIn, Twitter)</label>
+            </value>
+            <value>
+                <fullName>Through a friend</fullName>
+                <default>false</default>
+                <label>Through a friend</label>
+            </value>
+            <value>
+                <fullName>Other Instructor</fullName>
+                <default>false</default>
+                <label>Other Instructor</label>
+            </value>
+            <value>
+                <fullName>Church Communication</fullName>
+                <default>false</default>
+                <label>Church Communication</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

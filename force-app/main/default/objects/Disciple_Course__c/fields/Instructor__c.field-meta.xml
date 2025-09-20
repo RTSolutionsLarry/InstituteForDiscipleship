@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Instructor__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This will be become the primary contact in the resulting opportunity after each course session is completed.</description>
+    <inlineHelpText>Please search for class instructor before creating a new contact record.</inlineHelpText>
+    <label>Instructor</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipName>Disciple_Courses</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

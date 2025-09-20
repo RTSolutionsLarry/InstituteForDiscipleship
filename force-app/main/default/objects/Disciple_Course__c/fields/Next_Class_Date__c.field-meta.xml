@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Next_Class_Date__c</fullName>
+    <description>Start data of next upcoming class.</description>
+    <inlineHelpText>Start data of next upcoming class.</inlineHelpText>
+    <label>Next Class Date</label>
+    <summarizedField>Course_Session__c.Start_Date__c</summarizedField>
+    <summaryFilterItems>
+        <field>Course_Session__c.Status__c</field>
+        <operation>equals</operation>
+        <value>Upcoming</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Course_Session__c.Disciple_Course__c</summaryForeignKey>
+    <summaryOperation>min</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

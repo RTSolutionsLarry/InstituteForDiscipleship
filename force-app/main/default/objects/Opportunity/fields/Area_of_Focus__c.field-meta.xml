@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Area_of_Focus__c</fullName>
+    <label>Area of Focus</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>App</fullName>
+                <default>false</default>
+                <label>App</label>
+            </value>
+            <value>
+                <fullName>Bishop Scholarship</fullName>
+                <default>false</default>
+                <label>Bishop Scholarship</label>
+            </value>
+            <value>
+                <fullName>Faith Formation/Summit</fullName>
+                <default>false</default>
+                <label>Faith Formation/Summit</label>
+            </value>
+            <value>
+                <fullName>General</fullName>
+                <default>false</default>
+                <label>General</label>
+            </value>
+            <value>
+                <fullName>Timothy Circle</fullName>
+                <default>false</default>
+                <label>Timothy Circle</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

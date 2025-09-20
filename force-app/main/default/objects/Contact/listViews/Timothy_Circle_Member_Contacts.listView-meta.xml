@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Timothy_Circle_Member_Contacts</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Account.TC_Membership_Expiration_Date_ME__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>4/20/2020</value>
+    </filters>
+    <filters>
+        <field>CONTACT.TITLE</field>
+        <operation>notContain</operation>
+        <value>Benefits Officer</value>
+    </filters>
+    <filters>
+        <field>Account.TC_Representative__c</field>
+        <operation>equals</operation>
+        <value>Jen Burch,Lori Richey,Teryl Cartwright</value>
+    </filters>
+    <filters>
+        <field>Account.TC_Org_Contact_Email__c</field>
+        <operation>contains</operation>
+    </filters>
+    <label>Timothy Circle Member Contacts</label>
+</ListView>

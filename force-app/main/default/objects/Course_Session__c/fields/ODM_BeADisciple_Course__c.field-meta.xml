@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ODM_BeADisciple_Course__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>ODM - BeADisciple Course</label>
+    <referenceTo>BAD_Course__c</referenceTo>
+    <relationshipName>Course_Sessions</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

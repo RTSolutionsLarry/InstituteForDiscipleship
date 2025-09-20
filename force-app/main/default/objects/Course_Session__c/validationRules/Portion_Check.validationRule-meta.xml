@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Portion_Check</fullName>
+    <active>false</active>
+    <description>Checks if all IFD, Instructor and Sponsor portion are equal to the price.</description>
+    <errorConditionFormula>Sponsor_Portion__c  +  IFD_Portion__c  +  Instructor_Portion__c  &lt;&gt;  Price__c</errorConditionFormula>
+    <errorMessage>IFD, Instructor and Sponsor portion must add up and equal to the Price.</errorMessage>
+</ValidationRule>
