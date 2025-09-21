@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Timothy_Circle_Member_Organizations</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>TC_Contact_First_Name__c</columns>
+    <columns>TC_Contact_Last_Name__c</columns>
+    <columns>TC_Representative__c</columns>
+    <columns>TC_Membership_Expiration_Date_ME__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.TC_Member_Org</value>
+    </filters>
+    <filters>
+        <field>TC_Org_Status__c</field>
+        <operation>equals</operation>
+        <value>Won!,Login info + contact made,Needs Opportunities</value>
+    </filters>
+    <label>Timothy Circle Member Organizations</label>
+</ListView>

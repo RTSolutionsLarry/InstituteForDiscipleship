@@ -9,7 +9,7 @@
     <filters>
         <field>CONTACT.RECORDTYPE</field>
         <operation>equals</operation>
-        <value>Contact.Ambassador</value>
+        <value>Contact.Contact</value>
     </filters>
     <label>Ambassador List</label>
 </ListView>

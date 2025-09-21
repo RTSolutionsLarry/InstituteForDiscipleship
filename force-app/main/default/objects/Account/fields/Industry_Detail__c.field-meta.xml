@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Industry_Detail__c</fullName>
+    <inlineHelpText>Created Feb 16, 3016 to accomodate importing of CIO List with very detailed Industry data</inlineHelpText>
+    <label>Industry Detail</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
+</CustomField>

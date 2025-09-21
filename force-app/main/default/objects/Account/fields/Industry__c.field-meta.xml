@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Industry__c</fullName>
+    <label>Industry</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Organization_Type__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Education</fullName>
+                <default>false</default>
+                <label>Education</label>
+            </value>
+            <value>
+                <fullName>Health Care</fullName>
+                <default>false</default>
+                <label>Health Care</label>
+            </value>
+            <value>
+                <fullName>Hospitality</fullName>
+                <default>false</default>
+                <label>Hospitality</label>
+            </value>
+            <value>
+                <fullName>Manufacturing</fullName>
+                <default>false</default>
+                <label>Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Military</fullName>
+                <default>false</default>
+                <label>Military</label>
+            </value>
+            <value>
+                <fullName>Service</fullName>
+                <default>false</default>
+                <label>Service</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Private for Profit</controllingFieldValue>
+            <controllingFieldValue>Non-Profit</controllingFieldValue>
+            <controllingFieldValue>Government</controllingFieldValue>
+            <valueName>Education</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Private for Profit</controllingFieldValue>
+            <controllingFieldValue>Non-Profit</controllingFieldValue>
+            <controllingFieldValue>Government</controllingFieldValue>
+            <valueName>Health Care</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Private for Profit</controllingFieldValue>
+            <controllingFieldValue>Non-Profit</controllingFieldValue>
+            <valueName>Hospitality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Private for Profit</controllingFieldValue>
+            <controllingFieldValue>Non-Profit</controllingFieldValue>
+            <valueName>Manufacturing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Private for Profit</controllingFieldValue>
+            <controllingFieldValue>Non-Profit</controllingFieldValue>
+            <controllingFieldValue>Government</controllingFieldValue>
+            <valueName>Military</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Private for Profit</controllingFieldValue>
+            <controllingFieldValue>Non-Profit</controllingFieldValue>
+            <controllingFieldValue>Government</controllingFieldValue>
+            <valueName>Service</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

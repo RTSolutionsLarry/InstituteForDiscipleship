@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Institute_Type__c</fullName>
+    <label>Institute Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>College</fullName>
+                <default>false</default>
+                <label>College</label>
+            </value>
+            <value>
+                <fullName>2 Year Program</fullName>
+                <default>false</default>
+                <label>2 Year Program</label>
+            </value>
+            <value>
+                <fullName>4 Year Program</fullName>
+                <default>false</default>
+                <label>4 Year Program</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

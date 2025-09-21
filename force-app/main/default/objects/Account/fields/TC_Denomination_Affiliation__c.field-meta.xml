@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TC_Denomination_Affiliation__c</fullName>
+    <label>TC Denominational Affiliation</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Anabaptist (including Mennonite)</fullName>
+                <default>false</default>
+                <label>Anabaptist (including Mennonite)</label>
+            </value>
+            <value>
+                <fullName>Anglican</fullName>
+                <default>false</default>
+                <label>Anglican</label>
+            </value>
+            <value>
+                <fullName>Baptist (American)</fullName>
+                <default>false</default>
+                <label>Baptist (American)</label>
+            </value>
+            <value>
+                <fullName>Baptist (Other)</fullName>
+                <default>false</default>
+                <label>Baptist (Other)</label>
+            </value>
+            <value>
+                <fullName>Baptist (Southern)</fullName>
+                <default>false</default>
+                <label>Baptist (Southern)</label>
+            </value>
+            <value>
+                <fullName>Catholic</fullName>
+                <default>false</default>
+                <label>Catholic</label>
+            </value>
+            <value>
+                <fullName>Christian Churches/Churches of Christ</fullName>
+                <default>false</default>
+                <label>Christian Churches/Churches of Christ</label>
+            </value>
+            <value>
+                <fullName>Disciples of Christ</fullName>
+                <default>false</default>
+                <label>Disciples of Christ</label>
+            </value>
+            <value>
+                <fullName>Episcopal (PECUSA)</fullName>
+                <default>false</default>
+                <label>Episcopal (PECUSA)</label>
+            </value>
+            <value>
+                <fullName>Episcopal (Other)</fullName>
+                <default>false</default>
+                <label>Episcopal (Other)</label>
+            </value>
+            <value>
+                <fullName>Independent</fullName>
+                <default>false</default>
+                <label>Independent</label>
+            </value>
+            <value>
+                <fullName>Lutheran (ELCA)</fullName>
+                <default>false</default>
+                <label>Lutheran (ELCA)</label>
+            </value>
+            <value>
+                <fullName>Lutheran (Other)</fullName>
+                <default>false</default>
+                <label>Lutheran (Other)</label>
+            </value>
+            <value>
+                <fullName>Methodist (United)</fullName>
+                <default>false</default>
+                <label>Methodist (United)</label>
+            </value>
+            <value>
+                <fullName>Methodist (Other)</fullName>
+                <default>false</default>
+                <label>Methodist (Other)</label>
+            </value>
+            <value>
+                <fullName>Nazarene</fullName>
+                <default>false</default>
+                <label>Nazarene</label>
+            </value>
+            <value>
+                <fullName>Non-Denominational</fullName>
+                <default>false</default>
+                <label>Non-Denominational</label>
+            </value>
+            <value>
+                <fullName>Orthodox</fullName>
+                <default>false</default>
+                <label>Orthodox</label>
+            </value>
+            <value>
+                <fullName>Pentecostal</fullName>
+                <default>false</default>
+                <label>Pentecostal</label>
+            </value>
+            <value>
+                <fullName>Presbyterian (PCUSA)</fullName>
+                <default>false</default>
+                <label>Presbyterian (PCUSA)</label>
+            </value>
+            <value>
+                <fullName>Presbyterian (Other)</fullName>
+                <default>false</default>
+                <label>Presbyterian (Other)</label>
+            </value>
+            <value>
+                <fullName>Quaker</fullName>
+                <default>false</default>
+                <label>Quaker</label>
+            </value>
+            <value>
+                <fullName>United Church of Christ</fullName>
+                <default>false</default>
+                <label>United Church of Christ</label>
+            </value>
+            <value>
+                <fullName>Wesleyan</fullName>
+                <default>false</default>
+                <label>Wesleyan</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Prefer not to list</fullName>
+                <default>false</default>
+                <label>Prefer not to list</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
